@@ -35,7 +35,7 @@ header{
 
 .logo{
     font-size: 3rem;
-    color: #b74b4b;
+    color: #d18cc7;
     font-weight: 800;
     cursor:pointer;
     transition: 0.5 ease;
@@ -57,8 +57,8 @@ nav a{
 
 nav a:hover,
 nav a.active{
-    color: #b74b4b;
-    border-bottom: 3px solid #b74b4b;
+    color: #d18cc7;
+    border-bottom: 3px solid #d18cc7;
 }
 
 @media(max-width:995px){
@@ -67,8 +67,8 @@ nav a.active{
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #d18cc7;
+        border-bottom: 3px solid #d18cc7;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -89,7 +89,7 @@ nav a.active{
     nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #b74b4b;
+        border-bottom: 0.5rem solid #d18cc7;
     }
 }
 
@@ -113,7 +113,7 @@ section{
 
 
 span {
-    color: #b74b4b;
+    color: #d18cc7;
 }
 
 .home-content h3{
@@ -153,7 +153,7 @@ span {
 
 .typing-text span::before{
     content: Information Systems Undergraduate;
-    color: #b74b4b;
+    color: #d18cc7;
     animation: words 20s infinite;
 }
 .typing-text span::after{
@@ -169,7 +169,7 @@ span {
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid #d18cc7;
     }
 
 }
@@ -218,7 +218,7 @@ span {
 
 .skills h2 {
     font-size: 3rem;
-    color: #b74b4b;
+    color: #d18cc7;
     margin-bottom: 2rem;
 }
 
@@ -231,6 +231,15 @@ span {
 }
 
 .skills a {
-    color: #b74b4b;
+    color: #d18cc7;
     text-decoration: underline;
+}
+footer {
+    background-color: #ded9d9;
+    color: #181414;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    border-top: 1px solid #ada4a4;
 }
